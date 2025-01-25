@@ -94,17 +94,18 @@ body {
 
     body {
         margin: 0px;
+        background-color: #1D3557;
     }
 
     .card-grid {
         background-color: #1D3557;
-        width: 79vw;
+        width: 273px;
         margin-inline: auto;
         padding: 30px;
         margin: 0;
     }
 
-    .img-socials{
+    .img-socials {
         margin-left: 0px;
     }
 
@@ -119,12 +120,16 @@ body {
         border-radius: 100%;
     }
 
-    .font-flex{
+    .font-flex {
         box-sizing: border-box;
         text-align: center;
+        margin-inline: 0px;
     }
 
-    .intro{
-        width: 74vw;
+    .intro {
+        box-sizing: border-box;
+        width: 350px;
+        padding-inline: 18px;
+        font-size: 16px;
     }
 }
