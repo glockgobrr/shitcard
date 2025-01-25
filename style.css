@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.me-img {
+    width: 280px;
+    border-radius: 100%;
+}
+
+.tech-stack-icons {
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.intro {
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    line-height: 25px;
+    box-sizing: border-box;
+    width: 75%;
+    font-size: 13px;
+}
+
+.dob {
+    font-family: "Montserrat", serif;
+    margin-bottom: 10px;
+    color: beige;
+}
+
+.name {
+    font-family: "Merriweather";
+    color: gold;
+    margin-bottom: 0px;
+}
+
+.card-grid {
+    background-color: #1D3557;
+    width: 70%;
+    margin-inline: auto;
+    padding: 30px;
+}
+
+.tech-stack-title {
+    font-family: "Montserrat", serif;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.img-socials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 80px;
+    gap: 8px;
+}
+
+.card-flex {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.font-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social-icons-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+.social-icons {
+    width: 37px;
+}
+
+@media screen and (max-width : 768px) {
+
+    .card-grid {
+        background-color: #1D3557;
+        width: 79.5vw;
+        margin-inline: auto;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .img-socials{
+        margin-left: 0px;
+    }
+
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .me-img {
+        width: 250px;
+        border-radius: 100%;
+    }
+
+    .font-flex{
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .intro{
+        width: 74vw;
+    }
+}
